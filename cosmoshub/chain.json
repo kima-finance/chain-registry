@@ -557,6 +557,10 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://cosmoshub.tendermintrpc.lava.build:443",
+        "provider": "Lava"
+      },
+      {
         "address": "https://cosmos-rpc.quickapi.com:443",
         "provider": "Chainlayer"
       },
@@ -569,7 +573,7 @@
         "provider": "WhisperNode 🤐"
       },
       {
-        "address": "https://cosmoshub-rpc.lavenderfive.com:443",
+        "address": "https://rpc.lavenderfive.com:443/cosmoshub",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
@@ -703,6 +707,10 @@
     ],
     "rest": [
       {
+        "address": "https://cosmoshub.lava.build:443",
+        "provider": "Lava"
+      },
+      {
         "address": "https://cosmos-lcd.quickapi.com:443",
         "provider": "Chainlayer"
       },
@@ -711,7 +719,7 @@
         "provider": "Golden Ratio Staking"
       },
       {
-        "address": "https://cosmoshub-api.lavenderfive.com:443",
+        "address": "https://rest.lavenderfive.com:443/cosmoshub",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
@@ -817,7 +825,11 @@
     ],
     "grpc": [
       {
-        "address": "cosmoshub-grpc.lavenderfive.com:443",
+        "address": "cosmoshub.grpc.lava.build",
+        "provider": "Lava"
+      },
+      {
+        "address": "cosmoshub.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
