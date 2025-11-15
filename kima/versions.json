@@ -1,0 +1,17 @@
+{
+  "$schema": "../versions.schema.json",
+  "chain_name": "kima",
+  "versions": [
+    {
+      "name": "v2.0.2",
+      "recommended_version": "v2.0.2",
+      "compatible_versions": [
+        "v2.0.2",
+        "v2.0.0"
+      ],
+      "binaries": {
+        "linux/amd64": "OPTIONAL, REMOVE IF NOT NEEDED"
+      }
+    }
+  ]
+}
